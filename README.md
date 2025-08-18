@@ -1,23 +1,31 @@
 # Airbnb Price Prediction
 
-## Descriere
-Proiect pentru predictia preturilor Airbnb in New York folosind modele clasice de Machine Learning.  
-Scopul este de a prezice preturile cazarilor pe baza caracteristicilor precum locatia, tipul camerei, numarul de recenzii etc. Au fost testate modelele: Linear Regression cu regularizare Ridge, Random Forest Regressor, XGBoost.
+## Description
+This project aims to predict Airbnb prices in New York City using classical Machine Learning models.  
+The goal is to estimate accommodation prices based on features such as location, room type, number of reviews, etc. The following models were tested: Ridge-regularized Linear Regression, Random Forest Regressor, and XGBoost.
 
-## Set de date
-- Nume dataset: New York City Airbnb Open Data
-- Sursa: [Kaggle](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data)
-- Contine informatii despre listarile Airbnb din NYC, inclusiv pret, locatie, numar de camere, tip de apartament si facilitati
-- Numar de randuri si coloane: ~48000 randuri, 16 coloane
+## Dataset
+- Dataset name: New York City Airbnb Open Data
+- Source: [Kaggle](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data)
+- Contains information about NYC Airbnb listings, including price, location, number of rooms, apartment type, and amenities
+- Number of rows and columns: ~48,000 rows, 16 columns
 
-## Structură proiect
-- `notebooks/` – Notebook principal cu analiza datelor si antrenarea modelelor
-- `models/` – Modele salvate local (`.pkl`)  
-- `data/` – Dataset-uri  
-- `requirements.txt` – Pachete necesare pentru rularea notebook-ului  
-- `.gitignore` – Fisiere ignorate de Git
+## Project Structure
+- `notebooks/` – Main notebook with data analysis and model training
+- `models/` – Saved models (`.pkl`)  
+- `data/` – Datasets  
+- `requirements.txt` – Required packages to run the notebook  
+- `.gitignore` – Files ignored by Git
 
-## Cum se foloseste
-1. Cloneaza repo-ul:
+## How to Use
+1. Clone the repository:
 ```bash
-git clone https://github.com/mihneacoman/Airbnb-Price-Prediction
+git clone https://github.com/mihneacoman/Airbnb-Price-Prediction.git
+```
+
+2. Install required packages:
+```bash
+pip install -r requirements.txt
+```
+
+3. Open the notebook in `notebooks/` and run the cells.
