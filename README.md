@@ -11,11 +11,11 @@ Scopul este de a prezice preturile cazarilor pe baza caracteristicilor precum lo
 - Numar de randuri si coloane: ~48000 randuri, 16 coloane
 
 ## Structură proiect
-- `notebooks/` – Notebook principal cu analiza datelor și antrenarea modelelor
+- `notebooks/` – Notebook principal cu analiza datelor si antrenarea modelelor
 - `models/` – Modele salvate local (`.pkl`)  
 - `data/` – Dataset-uri  
 - `requirements.txt` – Pachete necesare pentru rularea notebook-ului  
-- `.gitignore` – Fișiere ignorate de Git
+- `.gitignore` – Fisiere ignorate de Git
 
 ## Cum se foloseste
 1. Cloneaza repo-ul:
